@@ -1,38 +1,202 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Readex+Pro:wght@300&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden !important;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body{
+  margin: 0px;
+  padding: 0px;
+  
+  /* background-color: rgb(255, 255, 0); */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.header .nav-item a:active ,  .header .nav-item a:focus , .header .nav-item a:hover{
+   color:white !important ;
+   border-top: 2px solid orangered !important;
+   
+ /* background-color: chartreuse ; */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255,.55) !important;
+}
+
+@media screen and (min-width:992px) {
+  
+
+.header .nav-item a{
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  margin-top: 2px !important;
+  margin-bottom: 0px !important;
+}
+}
+@media screen and (max-width:992px) {
+  
+
+  .header .nav-item a{
+    
+    padding-top: 1px !important;
+    margin-top: 13px !important;
+
   }
+  }
+
+  .section{
+    margin-top: 56px;
+  }
+
+
+  /* *************tag************* */
+
+.background{
+  
+  
+  
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images/background5.jpg') no-repeat center center/cover;
+  width: 100%;
+  height: 100vh;
+ 
+  
+  z-index: -1;
+  opacity: 1;
+  
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ .topic  {
+ 
+  color:yellow;
+} 
+
+ @media screen and (min-width:992px){
+  .topic  {
+    font-size: 5rem;
+  }
+  .react-typed{
+    font-size: 2.7rem;
+    
+  }
+
+}
+
+@media screen and (max-width:992px){
+  .topic  {
+    font-size: 4rem;
+  }
+  .react-typed{
+    font-size: 2rem;
+    /* margin-top: 299px; */
+  }
+
+} 
+@media screen and (max-width:350px){
+  .topic  {
+    font-size: 3rem;
+  }
+  .react-typed{
+    font-size: 1.5rem;
+    
+  }
+} 
+
+@media screen and (max-width:260px){
+  
+  .react-typed{
+    font-size: 1.5rem;
+   
+  }
+
+} 
+
+
+
+ 
+.react-typed{
+  
   color: white;
+  /* position:absolute;
+  top: 409px; */
+  
 }
 
-.App-link {
-  color: #61dafb;
+.tsparticles-canvas-el{
+ position: absolute !important;
+ top: 0;
+ left: 0;
+ height:100vh;
+ width:100vw;
+ color: white;
+ 
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* ************************* SECTION *******************************  */
+
+*{
+  
+  font-family: 'Open Sans', sans-serif; /*bold */
+  font-family: 'Readex Pro', sans-serif; /*light*/
+
 }
+
+
+.heading{
+  font-family: 'Open Sans', sans-serif;
+  overflow-y: hidden;
+}
+
+html{
+  overflow-y: visible;
+}
+
+/* About */
+.th-container {
+  padding-left: 8%;
+  padding-right: 8%;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.th-28{
+  font-size: 28px;
+}
+
+.th-grey {
+  color: #718096;
+}
+
+.th-overlay {
+  height: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://preview.colorlib.com/theme/drcare/images/xbg_3.jpg.pagespeed.ic.jzzj1xBQ3j.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.th-50{
+  font-size: 50px;
+}
+
+.th-20{
+  font-size: 20px;
+}
+.th-30{
+  font-size: 30px;
+}
+
+.th-12{
+  font-size:12px;
+}
+
