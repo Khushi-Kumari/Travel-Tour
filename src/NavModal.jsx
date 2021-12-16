@@ -1,13 +1,10 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import ReactDOM from "react-dom";
 // if (!global.setTimeOut){
 //   global.setTimeOut=function(){};
 // }
 
 export const NavModal = ({ isSigned, signed, notSigned }) => {
-
-
-
   return ReactDOM.createPortal(
     <>
       <div
@@ -32,52 +29,52 @@ export const NavModal = ({ isSigned, signed, notSigned }) => {
                     aria-label="Close"
                   ></button>
                 </div>
-                <div className="modal-body">
-                  <form>
+
+                <form>
+                  <div className="modal-body">
                     <div className="mb-3">
-                      <label
-                        for="name"
-                        className="col-form-label"
-                        
-                      >
+                      <label for="name" className="col-form-label">
                         Recipient:
                       </label>
                       <input
                         type="text"
                         className="form-control"
-                        id="name" name="name"
+                        id="name"
+                        name="name"
                         required
                       />
                     </div>
                     <div className="mb-3">
                       <label for="message-text" className="col-form-label">
-                       Email
+                        Email
                       </label>
-                      <input type="email"
+                      <input
+                        type="email"
                         className="form-control"
-                        id="message-text" name="email"
+                        id="message-text"
+                        name="email"
                         required
                       />
                     </div>
-                  </form>
-                </div>
-                <div className="modal-footer">
-                  <button
-                    type="button"
-                    className="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                  >
-                    Close
-                  </button>
-                  <button
-                    type="submit"
-                    className="btn btn-primary"
-                    onClick={signed}
-                    data-bs-dismiss="modal"
-                  >
-                    Sign-in
-                  </button>
-                </div>
+                  </div>
+                  <div className="modal-footer">
+                    <button
+                      type="button"
+                      className="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button
+                      type="submit"
+                      className="btn btn-primary"
+                      onClick={signed}
+                      data-bs-dismiss="modal"
+                    >
+                      Sign-in
+                    </button>
+                  </div>
+                </form>
               </>
             ) : (
               <>
