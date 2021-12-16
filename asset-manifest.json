@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Travel-Tour/static/css/main.a0e3ec79.chunk.css",
+    "main.js": "/Travel-Tour/static/js/main.d21c568c.chunk.js",
+    "main.js.map": "/Travel-Tour/static/js/main.d21c568c.chunk.js.map",
+    "runtime-main.js": "/Travel-Tour/static/js/runtime-main.a77a3d40.js",
+    "runtime-main.js.map": "/Travel-Tour/static/js/runtime-main.a77a3d40.js.map",
+    "static/css/2.ee54bbd5.chunk.css": "/Travel-Tour/static/css/2.ee54bbd5.chunk.css",
+    "static/js/2.2acc0d4b.chunk.js": "/Travel-Tour/static/js/2.2acc0d4b.chunk.js",
+    "static/js/2.2acc0d4b.chunk.js.map": "/Travel-Tour/static/js/2.2acc0d4b.chunk.js.map",
+    "static/js/3.cadf3905.chunk.js": "/Travel-Tour/static/js/3.cadf3905.chunk.js",
+    "static/js/3.cadf3905.chunk.js.map": "/Travel-Tour/static/js/3.cadf3905.chunk.js.map",
+    "index.html": "/Travel-Tour/index.html",
+    "static/css/2.ee54bbd5.chunk.css.map": "/Travel-Tour/static/css/2.ee54bbd5.chunk.css.map",
+    "static/css/main.a0e3ec79.chunk.css.map": "/Travel-Tour/static/css/main.a0e3ec79.chunk.css.map",
+    "static/js/2.2acc0d4b.chunk.js.LICENSE.txt": "/Travel-Tour/static/js/2.2acc0d4b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Travel-Tour/static/media/background5.c72a0773.jpg",
+    "static/media/carousel2.88ecab4f.jpg": "/Travel-Tour/static/media/carousel2.88ecab4f.jpg",
+    "static/media/carousel3.84afc39f.jfif": "/Travel-Tour/static/media/carousel3.84afc39f.jfif",
+    "static/media/client1.f2600695.png": "/Travel-Tour/static/media/client1.f2600695.png",
+    "static/media/client2.2c909cf7.png": "/Travel-Tour/static/media/client2.2c909cf7.png",
+    "static/media/client3.8e7c1caf.png": "/Travel-Tour/static/media/client3.8e7c1caf.png",
+    "static/media/font-awesome.min.css": "/Travel-Tour/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/logo.9fba9278.png": "/Travel-Tour/static/media/logo.9fba9278.png",
+    "static/media/mission1.cb6ed3a7.png": "/Travel-Tour/static/media/mission1.cb6ed3a7.png",
+    "static/media/outdoor.aef7c686.jpg": "/Travel-Tour/static/media/outdoor.aef7c686.jpg",
+    "static/media/service1.77f92c85.png": "/Travel-Tour/static/media/service1.77f92c85.png",
+    "static/media/service2.80314c3f.png": "/Travel-Tour/static/media/service2.80314c3f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a77a3d40.js",
+    "static/css/2.ee54bbd5.chunk.css",
+    "static/js/2.2acc0d4b.chunk.js",
+    "static/css/main.a0e3ec79.chunk.css",
+    "static/js/main.d21c568c.chunk.js"
+  ]
+}
