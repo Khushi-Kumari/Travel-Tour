@@ -24,17 +24,17 @@ export const Modal2 = () => {
                 aria-label="Close"
               ></button>
             </div>
-            <div className="modal-body">Are you sure that you want to submit?</div>
+            <div className="modal-body">We'll cantact you shortly!!</div>
             <div className="modal-footer">
-              <button
+              {/* <button
                 type="button"
                 className="btn btn-secondary"
                 data-bs-dismiss="modal"
               >
                 Dont Submit
-              </button>
+              </button> */}
               <button type="button" className="btn btn-primary" data-bs-dismiss="modal" >
-                Submit
+                Okay
               </button>
             </div>
           </div>

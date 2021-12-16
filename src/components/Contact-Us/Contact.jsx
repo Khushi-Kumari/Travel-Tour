@@ -120,7 +120,7 @@ export const Contact = () => {
 
       {/* form */}
       <div className="th-container py-5">
-        <div className="th-30 fw-bold text-center">Contact Us</div>
+        <div className="th-30 fw-bold text-center">Plan Your Next Travel</div>
         <form className="px-md-5">
           <div className="mb-3">
             <label for="name" className="form-label">
@@ -160,7 +160,7 @@ export const Contact = () => {
           </div>
           <div className="mb-3">
             <label for="exampleInputPassword1" className="form-label">
-              Password
+              Destination
             </label>
             <input
               type="password"

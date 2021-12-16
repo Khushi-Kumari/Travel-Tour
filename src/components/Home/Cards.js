@@ -4,7 +4,7 @@ import React from "react";
 export const Cards = () => {
   return (
     <>
-      <div className="display-3 text-center mt-5 heading" >Travell Tour</div>
+      <div className="display-3 text-center mt-5 heading" >Destinations</div>
 
       <div className=" conatainer px-3 pb-5 w-90vw ">
         <div className="row px-4 align-items-center justify-content-center">
@@ -16,13 +16,12 @@ export const Cards = () => {
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Shimla</h5>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum exercitationem iusto eaque rem ipsum animi corrupti consequatur cupiditate odio soluta?
                 </p>
                 <a href="#" className="btn btn-primary btn-sm">
-                  Go somewhere
+                  Visit
                 </a>
               </div>
             </div>
@@ -39,13 +38,12 @@ export const Cards = () => {
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Kerela</h5>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium ea doloribus eligendi beatae magni. Quaerat eius nemo provident quos maiores!
                 </p>
                 <a href="#" className="btn btn-primary btn-sm">
-                  Go somewhere
+                 Visit
                 </a>
               </div>
             </div>
@@ -62,13 +60,13 @@ export const Cards = () => {
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Goa</h5>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit saepe aspernatur quia at. Delectus a, omnis ipsum libero quos earum.
+
                 </p>
                 <a href="#" className="btn btn-primary btn-sm">
-                  Go somewhere
+                  Visit
                 </a>
               </div>
             </div>

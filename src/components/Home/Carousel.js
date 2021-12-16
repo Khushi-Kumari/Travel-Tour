@@ -13,9 +13,9 @@ export const Carousel = () => {
               className="fw-bold  text-center"
               style={{ overflowY: "hidden" }}
             >
-              Hello There!!
+              Snapshots !!
             </h1>
-            <div>Hey There! What's Up</div>
+            <div>Spend your holidays at these amazing places...</div>
           </div>
            <div className="col-sm-1 col-lg-2">  </div> 
           <div className="col-sm-7 col-lg-6" >

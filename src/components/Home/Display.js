@@ -40,18 +40,18 @@ export const Display = () => {
 
 
             <div className="mb-0" style={{color:"white"}}>
-            this is a Display
+            -Powered by Travetro
             </div>
             
 
                    
                 
-                    <p className="topic text-center ">this is a tag </p>
+                    <p className="topic text-center ">Travel Tours</p>
                 
                     <div className="react-typed  ">
                     <Typed 
-                        className="typed "
-                        strings = {["web design" , "web dev","google","facebook"]}
+                        className="typed"
+                        strings = {["Monuments" , "Hotels","Flight","Holidays","Activities","Explore"]}
                         typeSpeed={40}
                         backspeed={60}
                         loop

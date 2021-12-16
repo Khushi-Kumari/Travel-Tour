@@ -80,13 +80,13 @@ export const Service = () => {
               ullam.
             </p>
             <div className="row align-items-center justify-content-center pb-3 ">
-              <div className="col-12  p-5 p-md-4 p-lg-4 mx-5 shadow rounded-circle w-75">
+              <div className="col-12 mb-1 p-5 p-md-4 p-lg-4 mx-5 shadow rounded-circle w-75">
+                Claim Refund
+              </div>
+              <div className="col-12 mb-1 p-5 p-md-4 p-lg-4 mx-5 shadow rounded-circle w-75">
                 Transportation
               </div>
-              <div className="col-12  p-5 p-md-4 p-lg-4 mx-5 shadow rounded-circle w-75">
-                Comfort
-              </div>
-              <div className="col-12  p-5 p-md-4 p-lg-4 mx-5 shadow rounded-circle w-75">
+              <div className="col-12 mb-1 p-5 p-md-4 p-lg-4 mx-5 shadow rounded-circle w-75">
                 Fooding
               </div>
             </div>
@@ -98,7 +98,7 @@ export const Service = () => {
    <div className="th-overlay">
    <div className="th-container ">
    
-   <div className="th-50">Hey There</div>
+   <div className="th-50">Book Resorts</div>
    <div className="th-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ullam dolorem aspernatur ad veritatis fugiat, rerum earum accusamus porro numquam.</div>
    <button type="button" className="btn btn-outline-light th-20 ">+91-9955987654</button>
    
