@@ -123,7 +123,7 @@ export const Contact = () => {
         <div className="th-30 fw-bold text-center">Plan Your Next Travel</div>
         <form className="px-md-5">
           <div className="mb-3">
-            <label for="name" className="form-label">
+            <label htmlFor="name" className="form-label">
               Name
             </label>
             <input
@@ -134,7 +134,7 @@ export const Contact = () => {
           </div>
 
           <div className="mb-3">
-            <label for="address" className="form-label">
+            <label htmlFor="address" className="form-label">
               Address
             </label>
             <input
@@ -145,7 +145,7 @@ export const Contact = () => {
           </div>
 
           <div className="mb-3">
-            <label for="exampleInputEmail1" className="form-label">
+            <label htmlFor="exampleInputEmail1" className="form-label">
               Email address
             </label>
             <input
@@ -159,7 +159,7 @@ export const Contact = () => {
             </div>
           </div>
           <div className="mb-3">
-            <label for="exampleInputPassword1" className="form-label">
+            <label htmlFor="exampleInputPassword1" className="form-label">
               Destination
             </label>
             <input
@@ -174,7 +174,7 @@ export const Contact = () => {
               className="form-check-input"
               id="exampleCheck1"
             />
-            <label className="form-check-label" for="exampleCheck1">
+            <label className="form-check-label" htmlFor="exampleCheck1">
               Check me out
             </label>
           </div>

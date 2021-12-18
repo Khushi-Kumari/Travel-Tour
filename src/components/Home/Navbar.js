@@ -1,5 +1,5 @@
 //navbar
-import React,{useState , useEffect } from "react";
+import React, {useState , useEffect } from "react";
 import img from "../../images/logo.png";
 import { Link } from "react-router-dom";
 
@@ -63,7 +63,9 @@ const [isSigned, setIsSigned] = useState(false)
 
 
 
-<NavModal isSigned={isSigned} signed={()=>setIsSigned(true)} notSigned={()=>setIsSigned(false)} >   
+<  NavModal isSigned={isSigned}  setIsSigned={setIsSigned}
+  
+   >   
 </NavModal>
 
 

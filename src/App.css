@@ -200,3 +200,10 @@ html{
   font-size:12px;
 }
 
+
+/* note : never leave space btw class/element name and :hover otherwise false result will be displayed */
+/* .service :hover => wrong */
+
+.service:hover{                    
+  background-color: rgb(50, 165, 136);
+}

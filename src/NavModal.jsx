@@ -1,16 +1,36 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
-// if (!global.setTimeOut){
-//   global.setTimeOut=function(){};
-// }
 
-export const NavModal = ({ isSigned, signed, notSigned }) => {
+
+//data dismiss when name && email
+
+export const NavModal = ({ isSigned  , setIsSigned }) => {
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+
+
+ 
+    function hassigned(e){  
+       e.preventDefault() ;
+        console.log(isSigned) ;
+       return setTimeout(() => {
+       name && email ? setIsSigned(true) : '';
+      setName('');
+      setEmail('')
+        }, 100)
+       }
+
+//   function hassigned(){
+//  console.log(isSigned)
+//  return setme(true)
+//  }
+ 
   return ReactDOM.createPortal(
     <>
       <div
         className="modal fade"
         id="exampleModal"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
@@ -33,26 +53,29 @@ export const NavModal = ({ isSigned, signed, notSigned }) => {
                 <form>
                   <div className="modal-body">
                     <div className="mb-3">
-                      <label for="name" className="col-form-label">
-                        Recipient:
+                      <label htmlFor="name" className="col-form-label " style={{color : 'red'}} >
+                        Recipient : 
                       </label>
                       <input
                         type="text"
                         className="form-control"
                         id="name"
                         name="name"
+                        onChange={(event)=>setName(event.target.value)}
+
                         required
                       />
                     </div>
                     <div className="mb-3">
-                      <label for="message-text" className="col-form-label">
-                        Email
+                      <label htmlFor="message-text" className="col-form-label"  style={{color : 'red'}} >
+                        Email :
                       </label>
                       <input
                         type="email"
                         className="form-control"
                         id="message-text"
                         name="email"
+                        onChange={(e)=>setEmail(e.target.value)}
                         required
                       />
                     </div>
@@ -68,8 +91,12 @@ export const NavModal = ({ isSigned, signed, notSigned }) => {
                     <button
                       type="submit"
                       className="btn btn-primary"
-                      onClick={signed}
-                      data-bs-dismiss="modal"
+                      onClick={(e)=>hassigned(e)}
+                      
+                      data-bs-dismiss={ name && email ? "modal": ""} 
+                     
+
+                      
                     >
                       Sign-in
                     </button>
@@ -86,7 +113,9 @@ export const NavModal = ({ isSigned, signed, notSigned }) => {
                     type="button"
                     className="btn btn-secondary"
                     data-bs-dismiss="modal"
-                    onClick={notSigned}
+                    onClick={()=> {setTimeout(() => {
+                      setIsSigned(false)
+                    }, 400)}  }
                   >
                     Close
                   </button>

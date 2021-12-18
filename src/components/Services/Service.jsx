@@ -33,22 +33,22 @@ export const Service = () => {
       {/* blue background */}
       <div className="th-container mt-4  ">
         <div className="row align-items-center bg-primary ">
-          <div className="col-md-3 pt-5 px-5 pb-md-2  text-center text-white">
+          <div className="col-md-3 pt-5 px-5 pb-md-2  text-center text-white  service ">
           <div><i className="fa fa-suitcase fa-3x" aria-hidden="true"></i></div>
             Tourism
             <hr />
           </div>
-          <div className="col-md-3 pt-5 px-5 pb-md-2 text-center text-white">
+          <div className="col-md-3 pt-5 px-5 pb-md-2 text-center text-white service ">
            <div> <i className="fa fa-cutlery fa-3x" aria-hidden="true"></i>  </div>
             Food
             <hr />
           </div>
-          <div className="col-md-3 pt-5 px-5 pb-md-2 text-center text-white">
+          <div className="col-md-3 pt-5 px-5 pb-md-2 text-center text-white service ">
             <div><i className="fa fa-plane fa-3x" aria-hidden="true"></i></div>
             Transport
             <hr />
           </div>
-          <div className="col-md-3 pt-5 px-5 pb-md-2 pb-3 text-center text-white">
+          <div className="col-md-3 pt-5 px-5 pb-md-2 pb-3 text-center text-white  service">
             <div><i className="fa fa-futbol-o fa-3x" aria-hidden="true"></i></div>
             Enjoyment
             <hr />

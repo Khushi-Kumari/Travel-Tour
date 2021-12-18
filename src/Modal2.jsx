@@ -7,7 +7,7 @@ export const Modal2 = () => {
       <div
         className="modal fade"
         id="Modal2"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
