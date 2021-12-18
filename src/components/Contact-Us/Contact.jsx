@@ -163,7 +163,7 @@ export const Contact = () => {
               Destination
             </label>
             <input
-              type="password"
+              type="place"
               className="form-control"
               id="exampleInputPassword1"
             />

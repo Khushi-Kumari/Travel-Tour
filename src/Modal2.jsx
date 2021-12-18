@@ -15,7 +15,7 @@ export const Modal2 = () => {
           <div className="modal-content">
             <div className="modal-header">
               <h5 className="modal-title" id="exampleModalLabel">
-                Final Confirmatiom
+                Status
               </h5>
               <button
                 type="button"
@@ -24,7 +24,7 @@ export const Modal2 = () => {
                 aria-label="Close"
               ></button>
             </div>
-            <div className="modal-body">We'll cantact you shortly!!</div>
+            <div className="modal-body">Your form has been successfully submitted.<br/> We'll cantact you shortly!!</div>
             <div className="modal-footer">
               {/* <button
                 type="button"
