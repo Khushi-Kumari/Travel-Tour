@@ -19,7 +19,25 @@ const customStyles = {
 
 export const Contact = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [name, setName] = useState("")
+  const [address, setAddress] = useState("")
+  const [email, setEmail] = useState("")
+  const [des, setDes] = useState("")
+  const emailCheck=(email)=>{
+   
+      if (!email)
+      return false;
+      let len = email.toString().length;
+      let i=0;
+       console.log(len);
+      for(i;i<len-1;i++)
+      {
+        if(email[i]=== '@' )
+        return true;
+      }
 
+      return false
+  }
   return (
     <div>
       {/* carousel */}
@@ -128,8 +146,10 @@ export const Contact = () => {
             </label>
             <input
               type="name"
+              value={name}
               className="form-control"
-              id="exampleInputPassword16"
+              id="exampleInputPassword16" required
+              onChange={(e)=>setName(e.target.value)}
             />
           </div>
 
@@ -139,8 +159,10 @@ export const Contact = () => {
             </label>
             <input
               type="address"
+              value={address}
               className="form-control"
-              id="exampleInputPassword17"
+              id="exampleInputPassword17" required
+              onChange={(e)=>setAddress(e.target.value)}
             />
           </div>
 
@@ -150,9 +172,11 @@ export const Contact = () => {
             </label>
             <input
               type="email"
+              value={email}
               className="form-control"
               id="exampleInputEmail1"
-              aria-describedby="emailHelp"
+              aria-describedby="emailHelp" required
+              onChange={(e)=>setEmail(e.target.value)}
             />
             <div id="emailHelp" className="form-text">
               We'll never share your email with anyone else.
@@ -164,8 +188,10 @@ export const Contact = () => {
             </label>
             <input
               type="place"
+              value={des}
               className="form-control"
-              id="exampleInputPassword1"
+              id="exampleInputPassword1" required
+              onChange={(e)=>setDes(e.target.value)}
             />
           </div>
           <div className="mb-3 form-check">
@@ -178,38 +204,36 @@ export const Contact = () => {
               Check me out
             </label>
           </div>
-          
-        
 
-        {/* 1. when we nest this part ( i.e the below div container) inside form element
+          {/* 1. when we nest this part ( i.e the below div container) inside form element
          then modal disapprears in few sec ...why??? but when it is rendered outside
           </form> then is does not disapprears....this does not happen with bootstrap modal
           2. navbar has higher focus than the below modal (unlike bootstrap modal)*/}
-          
 
           {/* react modal or Modal.jsx */}
-        <div onClick={() => console.log("clicked")}>
-          <button onClick={() => setIsOpen(true)} className="btn btn-primary mb-2">Refresh</button>
-          <Modal open={isOpen} close={() => setIsOpen(false)}>
-            The page has been refreshed...
-          </Modal>
-        </div>
+          <div onClick={() => console.log("clicked")}>
+            <button type="button"
+              onClick={() =>{ setIsOpen(true) ; setName("") ;setEmail("") ; setAddress('') ; setDes('') ; console.log(name) }}
+              className="btn btn-primary mb-2"
+            >
+              Refresh
+            </button>
+            <Modal open={isOpen} close={() => setIsOpen(false)}>
+              The page has been refreshed...
+            </Modal>
+          </div>
 
-
-        {/* bootstrap modal or Modal2.jsx */}
-        <button
-          type="button"
-          className="btn btn-primary"
-          data-bs-toggle="modal"
-          data-bs-target="#Modal2"
-        >
-         Submit
-        </button>
-        <Modal2></Modal2>
-
+          {/* bootstrap modal or Modal2.jsx */}
+          <button
+            type="submit"
+            className="btn btn-primary"
+            data-bs-toggle={name && emailCheck(email) && address && des ? "modal" :""}
+            data-bs-target={name && emailCheck(email) && address && des ? "#Modal2" :""}
+          >
+            Submit
+          </button>
+          <Modal2></Modal2>
         </form>
-
-
       </div>
     </div>
   );
