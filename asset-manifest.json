@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/Travel-Tour/static/css/main.a0e3ec79.chunk.css",
-    "main.js": "/Travel-Tour/static/js/main.d21c568c.chunk.js",
-    "main.js.map": "/Travel-Tour/static/js/main.d21c568c.chunk.js.map",
+    "main.css": "/Travel-Tour/static/css/main.96b04b2b.chunk.css",
+    "main.js": "/Travel-Tour/static/js/main.37a2b08e.chunk.js",
+    "main.js.map": "/Travel-Tour/static/js/main.37a2b08e.chunk.js.map",
     "runtime-main.js": "/Travel-Tour/static/js/runtime-main.a77a3d40.js",
     "runtime-main.js.map": "/Travel-Tour/static/js/runtime-main.a77a3d40.js.map",
     "static/css/2.ee54bbd5.chunk.css": "/Travel-Tour/static/css/2.ee54bbd5.chunk.css",
-    "static/js/2.2acc0d4b.chunk.js": "/Travel-Tour/static/js/2.2acc0d4b.chunk.js",
-    "static/js/2.2acc0d4b.chunk.js.map": "/Travel-Tour/static/js/2.2acc0d4b.chunk.js.map",
+    "static/js/2.0ddd29dc.chunk.js": "/Travel-Tour/static/js/2.0ddd29dc.chunk.js",
+    "static/js/2.0ddd29dc.chunk.js.map": "/Travel-Tour/static/js/2.0ddd29dc.chunk.js.map",
     "static/js/3.cadf3905.chunk.js": "/Travel-Tour/static/js/3.cadf3905.chunk.js",
     "static/js/3.cadf3905.chunk.js.map": "/Travel-Tour/static/js/3.cadf3905.chunk.js.map",
     "index.html": "/Travel-Tour/index.html",
     "static/css/2.ee54bbd5.chunk.css.map": "/Travel-Tour/static/css/2.ee54bbd5.chunk.css.map",
-    "static/css/main.a0e3ec79.chunk.css.map": "/Travel-Tour/static/css/main.a0e3ec79.chunk.css.map",
-    "static/js/2.2acc0d4b.chunk.js.LICENSE.txt": "/Travel-Tour/static/js/2.2acc0d4b.chunk.js.LICENSE.txt",
+    "static/css/main.96b04b2b.chunk.css.map": "/Travel-Tour/static/css/main.96b04b2b.chunk.css.map",
+    "static/js/2.0ddd29dc.chunk.js.LICENSE.txt": "/Travel-Tour/static/js/2.0ddd29dc.chunk.js.LICENSE.txt",
+    "static/media/background3.82611465.jfif": "/Travel-Tour/static/media/background3.82611465.jfif",
     "static/media/App.css": "/Travel-Tour/static/media/background5.c72a0773.jpg",
+    "static/media/background6.ac25088a.jpg": "/Travel-Tour/static/media/background6.ac25088a.jpg",
+    "static/media/background7.6bbe49d5.jpg": "/Travel-Tour/static/media/background7.6bbe49d5.jpg",
     "static/media/carousel2.88ecab4f.jpg": "/Travel-Tour/static/media/carousel2.88ecab4f.jpg",
     "static/media/carousel3.84afc39f.jfif": "/Travel-Tour/static/media/carousel3.84afc39f.jfif",
     "static/media/client1.f2600695.png": "/Travel-Tour/static/media/client1.f2600695.png",
@@ -30,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.a77a3d40.js",
     "static/css/2.ee54bbd5.chunk.css",
-    "static/js/2.2acc0d4b.chunk.js",
-    "static/css/main.a0e3ec79.chunk.css",
-    "static/js/main.d21c568c.chunk.js"
+    "static/js/2.0ddd29dc.chunk.js",
+    "static/css/main.96b04b2b.chunk.css",
+    "static/js/main.37a2b08e.chunk.js"
   ]
 }
